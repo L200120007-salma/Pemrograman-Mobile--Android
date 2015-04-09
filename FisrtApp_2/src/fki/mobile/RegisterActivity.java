@@ -27,9 +27,9 @@ public class RegisterActivity extends Activity {
 			
 			public void onClick(View view) {
 				// TODO Auto-generated method stub
-				string name = inputFullName.getText()toString();
-				string email = inputEmail.getText()toString();
-				string password = inputPassword.getText()toString();
+				String name = inputFullName.getText().toString();
+				String email = inputEmail.getText().toString();
+				String password = inputPassword.getText().toString();
 				
 				if (!name.isEmpty() && !email.isEmpty() && !password.isEmpty()){
 					Toast.makeText(getApplicationContext(),
